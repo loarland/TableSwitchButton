@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F6F52C5198A3D570086857E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6F52C4198A3D570086857E /* Foundation.framework */; };
+		2F6F52C7198A3D570086857E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6F52C6198A3D570086857E /* CoreGraphics.framework */; };
+		2F6F52C9198A3D570086857E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6F52C8198A3D570086857E /* UIKit.framework */; };
+		2F6F52CF198A3D570086857E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F6F52CD198A3D570086857E /* InfoPlist.strings */; };
+		2F6F52D1198A3D570086857E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6F52D0198A3D570086857E /* main.m */; };
+		2F6F52D5198A3D570086857E /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6F52D4198A3D570086857E /* CHAppDelegate.m */; };
+		2F6F52D8198A3D570086857E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6F52D6198A3D570086857E /* Main.storyboard */; };
+		2F6F52DB198A3D570086857E /* CHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6F52DA198A3D570086857E /* CHViewController.m */; };
+		2F6F52DD198A3D570086857E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6F52DC198A3D570086857E /* Images.xcassets */; };
+		2F6F52E4198A3D570086857E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6F52E3198A3D570086857E /* XCTest.framework */; };
+		2F6F52E5198A3D570086857E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6F52C4198A3D570086857E /* Foundation.framework */; };
+		2F6F52E6198A3D570086857E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6F52C8198A3D570086857E /* UIKit.framework */; };
+		2F6F52EE198A3D570086857E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F6F52EC198A3D570086857E /* InfoPlist.strings */; };
+		2F6F52F0198A3D570086857E /* TableSwitchButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6F52EF198A3D570086857E /* TableSwitchButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F6F52E7198A3D570086857E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F6F52B9198A3D570086857E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F6F52C0198A3D570086857E;
+			remoteInfo = TableSwitchButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F6F52C1198A3D570086857E /* TableSwitchButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableSwitchButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6F52C4198A3D570086857E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F6F52C6198A3D570086857E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F6F52C8198A3D570086857E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F6F52CC198A3D570086857E /* TableSwitchButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableSwitchButton-Info.plist"; sourceTree = "<group>"; };
+		2F6F52CE198A3D570086857E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F6F52D0198A3D570086857E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F6F52D2198A3D570086857E /* TableSwitchButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableSwitchButton-Prefix.pch"; sourceTree = "<group>"; };
+		2F6F52D3198A3D570086857E /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
+		2F6F52D4198A3D570086857E /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHAppDelegate.m; sourceTree = "<group>"; };
+		2F6F52D7198A3D570086857E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F6F52D9198A3D570086857E /* CHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHViewController.h; sourceTree = "<group>"; };
+		2F6F52DA198A3D570086857E /* CHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHViewController.m; sourceTree = "<group>"; };
+		2F6F52DC198A3D570086857E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F6F52E2198A3D570086857E /* TableSwitchButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableSwitchButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6F52E3198A3D570086857E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2F6F52EB198A3D570086857E /* TableSwitchButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableSwitchButtonTests-Info.plist"; sourceTree = "<group>"; };
+		2F6F52ED198A3D570086857E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F6F52EF198A3D570086857E /* TableSwitchButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableSwitchButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F6F52BE198A3D570086857E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6F52C7198A3D570086857E /* CoreGraphics.framework in Frameworks */,
+				2F6F52C9198A3D570086857E /* UIKit.framework in Frameworks */,
+				2F6F52C5198A3D570086857E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6F52DF198A3D570086857E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6F52E4198A3D570086857E /* XCTest.framework in Frameworks */,
+				2F6F52E6198A3D570086857E /* UIKit.framework in Frameworks */,
+				2F6F52E5198A3D570086857E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F6F52B8198A3D570086857E = {
+			isa = PBXGroup;
+			children = (
+				2F6F52CA198A3D570086857E /* TableSwitchButton */,
+				2F6F52E9198A3D570086857E /* TableSwitchButtonTests */,
+				2F6F52C3198A3D570086857E /* Frameworks */,
+				2F6F52C2198A3D570086857E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F6F52C2198A3D570086857E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F6F52C1198A3D570086857E /* TableSwitchButton.app */,
+				2F6F52E2198A3D570086857E /* TableSwitchButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F6F52C3198A3D570086857E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F6F52C4198A3D570086857E /* Foundation.framework */,
+				2F6F52C6198A3D570086857E /* CoreGraphics.framework */,
+				2F6F52C8198A3D570086857E /* UIKit.framework */,
+				2F6F52E3198A3D570086857E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F6F52CA198A3D570086857E /* TableSwitchButton */ = {
+			isa = PBXGroup;
+			children = (
+				2F6F52D3198A3D570086857E /* CHAppDelegate.h */,
+				2F6F52D4198A3D570086857E /* CHAppDelegate.m */,
+				2F6F52D6198A3D570086857E /* Main.storyboard */,
+				2F6F52D9198A3D570086857E /* CHViewController.h */,
+				2F6F52DA198A3D570086857E /* CHViewController.m */,
+				2F6F52DC198A3D570086857E /* Images.xcassets */,
+				2F6F52CB198A3D570086857E /* Supporting Files */,
+			);
+			path = TableSwitchButton;
+			sourceTree = "<group>";
+		};
+		2F6F52CB198A3D570086857E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F6F52CC198A3D570086857E /* TableSwitchButton-Info.plist */,
+				2F6F52CD198A3D570086857E /* InfoPlist.strings */,
+				2F6F52D0198A3D570086857E /* main.m */,
+				2F6F52D2198A3D570086857E /* TableSwitchButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F6F52E9198A3D570086857E /* TableSwitchButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F6F52EF198A3D570086857E /* TableSwitchButtonTests.m */,
+				2F6F52EA198A3D570086857E /* Supporting Files */,
+			);
+			path = TableSwitchButtonTests;
+			sourceTree = "<group>";
+		};
+		2F6F52EA198A3D570086857E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F6F52EB198A3D570086857E /* TableSwitchButtonTests-Info.plist */,
+				2F6F52EC198A3D570086857E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F6F52C0198A3D570086857E /* TableSwitchButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6F52F3198A3D570086857E /* Build configuration list for PBXNativeTarget "TableSwitchButton" */;
+			buildPhases = (
+				2F6F52BD198A3D570086857E /* Sources */,
+				2F6F52BE198A3D570086857E /* Frameworks */,
+				2F6F52BF198A3D570086857E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableSwitchButton;
+			productName = TableSwitchButton;
+			productReference = 2F6F52C1198A3D570086857E /* TableSwitchButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F6F52E1198A3D570086857E /* TableSwitchButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6F52F6198A3D570086857E /* Build configuration list for PBXNativeTarget "TableSwitchButtonTests" */;
+			buildPhases = (
+				2F6F52DE198A3D570086857E /* Sources */,
+				2F6F52DF198A3D570086857E /* Frameworks */,
+				2F6F52E0198A3D570086857E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F6F52E8198A3D570086857E /* PBXTargetDependency */,
+			);
+			name = TableSwitchButtonTests;
+			productName = TableSwitchButtonTests;
+			productReference = 2F6F52E2198A3D570086857E /* TableSwitchButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F6F52B9198A3D570086857E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ChangHong;
+				TargetAttributes = {
+					2F6F52E1198A3D570086857E = {
+						TestTargetID = 2F6F52C0198A3D570086857E;
+					};
+				};
+			};
+			buildConfigurationList = 2F6F52BC198A3D570086857E /* Build configuration list for PBXProject "TableSwitchButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F6F52B8198A3D570086857E;
+			productRefGroup = 2F6F52C2198A3D570086857E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F6F52C0198A3D570086857E /* TableSwitchButton */,
+				2F6F52E1198A3D570086857E /* TableSwitchButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F6F52BF198A3D570086857E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6F52DD198A3D570086857E /* Images.xcassets in Resources */,
+				2F6F52CF198A3D570086857E /* InfoPlist.strings in Resources */,
+				2F6F52D8198A3D570086857E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6F52E0198A3D570086857E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6F52EE198A3D570086857E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F6F52BD198A3D570086857E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6F52D1198A3D570086857E /* main.m in Sources */,
+				2F6F52D5198A3D570086857E /* CHAppDelegate.m in Sources */,
+				2F6F52DB198A3D570086857E /* CHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6F52DE198A3D570086857E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6F52F0198A3D570086857E /* TableSwitchButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F6F52E8198A3D570086857E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F6F52C0198A3D570086857E /* TableSwitchButton */;
+			targetProxy = 2F6F52E7198A3D570086857E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F6F52CD198A3D570086857E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F6F52CE198A3D570086857E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F6F52D6198A3D570086857E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F6F52D7198A3D570086857E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F6F52EC198A3D570086857E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F6F52ED198A3D570086857E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F6F52F1198A3D570086857E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F6F52F2198A3D570086857E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F6F52F4198A3D570086857E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableSwitchButton/TableSwitchButton-Prefix.pch";
+				INFOPLIST_FILE = "TableSwitchButton/TableSwitchButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F6F52F5198A3D570086857E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableSwitchButton/TableSwitchButton-Prefix.pch";
+				INFOPLIST_FILE = "TableSwitchButton/TableSwitchButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2F6F52F7198A3D570086857E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableSwitchButton.app/TableSwitchButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableSwitchButton/TableSwitchButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TableSwitchButtonTests/TableSwitchButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2F6F52F8198A3D570086857E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableSwitchButton.app/TableSwitchButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableSwitchButton/TableSwitchButton-Prefix.pch";
+				INFOPLIST_FILE = "TableSwitchButtonTests/TableSwitchButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F6F52BC198A3D570086857E /* Build configuration list for PBXProject "TableSwitchButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6F52F1198A3D570086857E /* Debug */,
+				2F6F52F2198A3D570086857E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6F52F3198A3D570086857E /* Build configuration list for PBXNativeTarget "TableSwitchButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6F52F4198A3D570086857E /* Debug */,
+				2F6F52F5198A3D570086857E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F6F52F6198A3D570086857E /* Build configuration list for PBXNativeTarget "TableSwitchButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6F52F7198A3D570086857E /* Debug */,
+				2F6F52F8198A3D570086857E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F6F52B9198A3D570086857E /* Project object */;
+}
