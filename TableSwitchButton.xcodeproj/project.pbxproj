@@ -21,6 +21,7 @@
 		2F6F52E6198A3D570086857E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6F52C8198A3D570086857E /* UIKit.framework */; };
 		2F6F52EE198A3D570086857E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F6F52EC198A3D570086857E /* InfoPlist.strings */; };
 		2F6F52F0198A3D570086857E /* TableSwitchButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6F52EF198A3D570086857E /* TableSwitchButtonTests.m */; };
+		2F6F52FB198A3DD90086857E /* CHSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6F52FA198A3DD90086857E /* CHSwitchButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2F6F52EB198A3D570086857E /* TableSwitchButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableSwitchButtonTests-Info.plist"; sourceTree = "<group>"; };
 		2F6F52ED198A3D570086857E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F6F52EF198A3D570086857E /* TableSwitchButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableSwitchButtonTests.m; sourceTree = "<group>"; };
+		2F6F52F9198A3DD90086857E /* CHSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSwitchButton.h; sourceTree = "<group>"; };
+		2F6F52FA198A3DD90086857E /* CHSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSwitchButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2F6F52D6198A3D570086857E /* Main.storyboard */,
 				2F6F52D9198A3D570086857E /* CHViewController.h */,
 				2F6F52DA198A3D570086857E /* CHViewController.m */,
+				2F6F52F9198A3DD90086857E /* CHSwitchButton.h */,
+				2F6F52FA198A3DD90086857E /* CHSwitchButton.m */,
 				2F6F52DC198A3D570086857E /* Images.xcassets */,
 				2F6F52CB198A3D570086857E /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6F52FB198A3DD90086857E /* CHSwitchButton.m in Sources */,
 				2F6F52D1198A3D570086857E /* main.m in Sources */,
 				2F6F52D5198A3D570086857E /* CHAppDelegate.m in Sources */,
 				2F6F52DB198A3D570086857E /* CHViewController.m in Sources */,
@@ -380,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableSwitchButton/TableSwitchButton-Prefix.pch";
 				INFOPLIST_FILE = "TableSwitchButton/TableSwitchButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableSwitchButton/TableSwitchButton-Prefix.pch";
 				INFOPLIST_FILE = "TableSwitchButton/TableSwitchButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

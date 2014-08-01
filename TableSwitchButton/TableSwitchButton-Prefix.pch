@@ -14,3 +14,9 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#define DLogObj(p)      NSLog(@"%@", p);
+#define DLogPoint(p)    NSLog(@"%f, %f", p.x, p.y);
+#define DLogSize(s)     NSLog(@"%f, %f", s.width, s.height);
+#define DLogRect(p)     NSLog(@"x:%f, y:%f, width:%f, height:%f", p.origin.x, p.origin.y, p.size.width, p.size.height);
+#define DLogMethod      NSLog(@"[%s]:%@.", class_getName([self class]), NSStringFromSelector(_cmd));

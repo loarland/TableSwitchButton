@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CHSwitchButton.h"
 
-@interface CHViewController : UIViewController
+@interface CHViewController : UIViewController<SwitchButtonDelegate>
+
+@property (strong, nonatomic) CHSwitchButton        *btn;
+@property (strong, nonatomic) IBOutlet UILabel *label;
 
 @end
